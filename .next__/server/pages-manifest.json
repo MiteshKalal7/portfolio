@@ -1,0 +1,21 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/career": "pages/career.html",
+  "/company": "pages/company.html",
+  "/contact-us/Contact": "pages/contact-us/Contact.html",
+  "/contact-us/Location": "pages/contact-us/Location.html",
+  "/contact-us/Office": "pages/contact-us/Office.html",
+  "/contact-us": "pages/contact-us.html",
+  "/": "pages/index.html",
+  "/our-team": "pages/our-team.html",
+  "/portfolio-detail": "pages/portfolio-detail.html",
+  "/portfolios": "pages/portfolios.html",
+  "/services/[service]/[slug]": "pages/services/[service]/[slug].html",
+  "/services/[service]": "pages/services/[service].html",
+  "/services": "pages/services.html",
+  "/team-details": "pages/team-details.html",
+  "/why-epagestore": "pages/why-epagestore.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}
