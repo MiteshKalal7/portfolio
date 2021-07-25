@@ -26,11 +26,7 @@ function Office() {
               <div className="office-text">
                 <h4>Ahmedabad</h4>
                 <p>Satellite, Ahmedabad, India</p>
-                <a
-                  href="javascript:void(0)"
-                  target="blank"
-                  className="btn-outline"
-                >
+                <a href="#" target="blank" className="btn-outline">
                   View on Map <i className="fas fa-chevron-right fa-icon" />
                 </a>
               </div>
@@ -51,11 +47,7 @@ function Office() {
               <div className="office-text">
                 <h4>Vadodara</h4>
                 <p>Satellite, Vadodara, India</p>
-                <a
-                  href="javascript:void(0)"
-                  target="blank"
-                  className="btn-outline"
-                >
+                <a href="#" target="blank" className="btn-outline">
                   View on Map <i className="fas fa-chevron-right fa-icon" />
                 </a>
               </div>
@@ -76,11 +68,7 @@ function Office() {
               <div className="office-text">
                 <h4>Canada</h4>
                 <p>Kitchener, Canada</p>
-                <a
-                  href="javascript:void(0)"
-                  target="blank"
-                  className="btn-outline"
-                >
+                <a href="#" target="blank" className="btn-outline">
                   View on Map <i className="fas fa-chevron-right fa-icon" />
                 </a>
               </div>

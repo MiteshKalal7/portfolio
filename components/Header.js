@@ -1,125 +1,17 @@
 // import LOGO from './../img/logo.png'
 // import LOGO2 from './../img/logo-2.png'
-import { useEffect, useState } from 'react'
+// import { useEffect, useState } from 'react'
 // import { useHistory } from 'react-router-dom'
-import { getServicesMenu } from '../services'
+// import { getServicesMenu } from '../services'
 import Link from 'next/link'
+
 import { useRouter } from 'next/router'
 
-function Header(props) {
+function Header({ services }) {
   const history = useRouter()
-  const [services, setServices] = useState([
-    {
-      _id: '60cf335bc9232a1c80e46f30',
-      name: 'Web developement',
-      slug: 'web-development',
-      services: [
-        {
-          _id: '60d01f8d1ce12149dcfb1af4',
-          name: 'PHP Development',
-          categoryId: '60cf335bc9232a1c80e46f30',
-          slug: 'php-development',
-        },
-        {
-          _id: '60d01f951ce12149dcfb1af6',
-          name: 'ReactJS Development',
-          categoryId: '60cf335bc9232a1c80e46f30',
-          slug: 'react-js-development',
-        },
-        {
-          _id: '60d01f991ce12149dcfb1af8',
-          name: 'VUE JS Development',
-          categoryId: '60cf335bc9232a1c80e46f30',
-          slug: 'vue-js-development',
-        },
-        {
-          _id: '60d01faa1ce12149dcfb1afa',
-          name: 'AngularJS Development',
-          categoryId: '60cf335bc9232a1c80e46f30',
-          slug: 'angular-js-development',
-        },
-      ],
-    },
-    {
-      _id: '60cf3ac7c4707518a8544157',
-      name: 'App development',
-      slug: 'app-development',
-      services: [
-        {
-          _id: '60cf3b449d21ba30d0f562d3',
-          name: 'Android Development',
-          categoryId: '60cf3ac7c4707518a8544157',
-          slug: 'android-development',
-        },
-        {
-          _id: '60cf6004362ade253c6a4c02',
-          name: 'iOS Development',
-          categoryId: '60cf3ac7c4707518a8544157',
-          slug: 'ios-development',
-        },
-        {
-          _id: '60d0241e1ce12149dcfb1b28',
-          name: 'Cross Platform App Development',
-          categoryId: '60cf3ac7c4707518a8544157',
-          slug: 'cross-platform-app-development',
-        },
-      ],
-    },
-    {
-      _id: '60d01f191ce12149dcfb1aee',
-      name: 'CMS & ECOMMERCE',
-      slug: 'cms-ecommerce',
-      services: [],
-    },
-    {
-      _id: '60d01f321ce12149dcfb1af0',
-      name: 'DIGITAL MARKETING',
-      slug: 'digital-marketing',
-      services: [],
-    },
-    {
-      _id: '60d01f431ce12149dcfb1af2',
-      name: 'OTHER SERVICES',
-      slug: 'other-services',
-      services: [
-        {
-          _id: '60d023f91ce12149dcfb1b24',
-          name: 'iPad App Developement',
-          categoryId: '60d01f431ce12149dcfb1af2',
-          slug: 'i-pad-app',
-        },
-        {
-          _id: '60d218730a55a953b855f360',
-          name: 'SEO',
-          categoryId: '60d01f431ce12149dcfb1af2',
-          slug: 'seo-services',
-        },
-      ],
-    },
-    {
-      _id: '60d02672e8974d4684a30640',
-      name: 'Testing',
-      slug: 'testing-13124',
-      services: [
-        {
-          _id: '60d35d68b2123f09446027a9',
-          name: '999999',
-          categoryId: '60d02672e8974d4684a30640',
-          slug: '999999',
-        },
-      ],
-    },
-  ])
+  // const [services, setServices] = useState([])
+
   const navClass = history.pathname === '/' ? 'nav-bg-b' : 'nav-bg-w'
-  // useEffect(() => {
-  //   getServicesMenu()
-  //     .then((res) => {
-  //       setServices(res.result)
-  //     })
-  //     .catch((err) => {
-  //       console.log('getServicesMenu err : ' + err)
-  //     })
-  // }, [])
 
   return (
     <div>
@@ -145,9 +37,11 @@ function Header(props) {
             <div className="custom-nav" role="navigation">
               <ul className="nav-list">
                 <li className="sbmenu">
-                  <Link href="/services">
-                    <a className="menu-links"> Services</a>
-                  </Link>
+                  {/* <Link href="/services"> */}
+                  <a className="menu-links" href="/services">
+                    Services
+                  </a>
+                  {/* </Link> */}
                   <div className="nx-dropdown">
                     <div className="sub-menu-section">
                       <div className="container">
@@ -157,22 +51,25 @@ function Header(props) {
                                 let addClass = i > 3 ? 'mt-3' : ''
                                 return (
                                   <>
-                                    <div className="sub-menu-column col-md-3">
+                                    <div
+                                      className="sub-menu-column col-md-3"
+                                      key={i}
+                                    >
                                       <div
                                         className={`menuheading ${addClass}`}
                                       >
                                         <Link href={`/services/${item.slug}`}>
-                                          <a>{item.name}</a>
+                                          {item.name}
                                         </Link>
                                       </div>
                                       <ul>
-                                        {item.services.map((service) => {
+                                        {item.services.map((service, index) => {
                                           return (
-                                            <li>
+                                            <li key={index}>
                                               <Link
                                                 href={`/services/${item.slug}/${service.slug}`}
                                               >
-                                                <a>{service.name}</a>
+                                                {service.name}
                                               </Link>
                                             </li>
                                           )
@@ -224,7 +121,7 @@ function Header(props) {
                               src="images/flags/us.svg"
                               alt="us office"
                               className="flags-size"
-                            />{' '}
+                            />
                             <a href="tel:1111111111">+1-123-456-7890</a>
                           </li>
                         </ul>
@@ -238,7 +135,7 @@ function Header(props) {
                                 src="images/flags/us.svg"
                                 alt="us office"
                                 className="flags-size"
-                              />{' '}
+                              />
                               +1-123-456-7890
                             </a>
                           </li>
@@ -248,7 +145,7 @@ function Header(props) {
                                 src="images/flags/au.svg"
                                 alt="australia office"
                                 className="flags-size"
-                              />{' '}
+                              />
                               +1-123-456-7890
                             </a>
                           </li>
@@ -273,7 +170,7 @@ function Header(props) {
                     className="btn-br bg-btn3 btshad-b2 lnk"
                   >
                     Request A Quote <span className="circle" />
-                  </a>{' '}
+                  </a>
                 </li>
               </ul>
             </div>
@@ -290,7 +187,6 @@ function Header(props) {
                   </a>
                 </li>
                 <li className="navm-">
-                  {' '}
                   <a className="toggle" href="#">
                     <span />
                   </a>
@@ -301,92 +197,52 @@ function Header(props) {
           {/*Mobile Menu*/}
           <nav id="main-nav">
             <ul className="first-nav">
+              {/* {mobileMenuItems.length && renderMobileMenu()} */}
+              {/* {htmlState} */}
               <li>
-                <a href="#">Services</a>
-                <li>
-                  <a href="#">Multi-Page Demo</a>
-                  <ul>
-                    <li>
-                      <Link href="/">Homepage</Link>
-                    </li>
-                    <li>
-                      <a href="digital-agency.html">Digital Agency</a>
-                    </li>
-                    <li>
-                      <a href="digital-agency-dark.html">Digital Agency Dark</a>
-                    </li>
-                    <li>
-                      <a href="web-design-agency.html">Web Design Agency</a>
-                    </li>
-                    <li>
-                      <a href="web-design-agency-dark.html">
-                        Web Design Agency Dark
-                      </a>
-                    </li>
-                    <li>
-                      <a href="digital-marketing.html">Digital Marketing</a>
-                    </li>
-                    <li>
-                      <a href="digital-marketing-dark.html">
-                        Digital Marketing Dark
-                      </a>
-                    </li>
-                    <li>
-                      <a href="lead-generation.html">Lead Generation Agency</a>
-                    </li>
-                    <li>
-                      <a href="lead-generation-dark.html">
-                        Lead Generation Agency Dark
-                      </a>
-                    </li>
-                    <li>
-                      <a href="freelance-portfolio.html">Freelance Portfolio</a>
-                    </li>
-                    <li>
-                      <a href="freelance-portfolio-dark.html">
-                        Freelance Portfolio Dark
-                      </a>
-                    </li>
-                    <li>
-                      <a href="minimal-portfolio.html">Minimal Portfolio</a>
-                    </li>
-                    <li>
-                      <a href="creative-agency.html">Creative Agency</a>
-                    </li>
-                    <li>
-                      <a href="branding-agency.html">Branding Agency</a>
-                    </li>
-                    <li>
-                      <a href="app-development.html">App Development Agency</a>
-                    </li>
-                    <li>
-                      <a href="modern-agency.html">Modern Agency</a>
-                    </li>
-                    <li>
-                      <a href="business-and-startup.html">
-                        Business &amp; Startup
-                      </a>
-                    </li>
-                    <li>
-                      <a href="graphic-studio.html">Graphic Studio</a>
-                    </li>
-                  </ul>
-                </li>
+                <a href="/services">Services</a>
+
+                <ul>
+                  {services.length > 0 &&
+                    services.map((item, i) => (
+                      <li key={i}>
+                        <Link
+                          href={'services/[service]'}
+                          as={`/services/${item.slug}`}
+                        >
+                          {item.name}
+                        </Link>
+                        <ul>
+                          {item.services.map((service) => {
+                            return (
+                              <li>
+                                <Link
+                                  href={`/services/${item.slug}/${service.slug}`}
+                                >
+                                  <a>{service.name}</a>
+                                </Link>
+                              </li>
+                            )
+                          })}
+                        </ul>
+                      </li>
+                    ))}
+                </ul>
               </li>
               <li>
-                <a href="#">Company</a>
+                <Link href="/company">Company</Link>
               </li>
               <li>
-                <a href="#">Portfolio</a>
+                <Link href="/portfolios">Portfolio</Link>
               </li>
               <li>
                 <Link href="/contact-us">Contact Us</Link>
               </li>
               <li>
-                <a href="#">Blog</a>
+                <a href="http://blog.epagestore.com/">Blog {services.length}</a>
               </li>
               <li>
-                <a href="#">Career</a>
+                <Link href="/career">Career</Link>
               </li>
             </ul>
             <ul className="bottom-nav">

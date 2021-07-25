@@ -1,12 +1,18 @@
 import Hero from '../../components/Hero'
 import Link from 'next/link'
+import Head from 'next/head'
+import renderHTML from 'react-render-html'
+import Header from './../../components/Header'
+import { getServicesMenu } from '../../services'
 
 // import Contact from './Contact'
 // import Office from './Office'
 
-function Dashboard() {
+export default function (props) {
   return (
     <>
+      <Head>{renderHTML(props.metaTags)}</Head>
+      <Header services={props.servicesProps} />
       <Hero page="Portfolio" title="Our Projects" />
       <section className="portfolio-page pad-tb">
         <div className="container">
@@ -230,5 +236,14 @@ function Dashboard() {
     </>
   )
 }
+export async function getStaticProps() {
+  const res = await getServicesMenu()
+  const result = await res.result
 
-export default Dashboard
+  return {
+    props: {
+      metaTags: '<title>Portfolios</title>',
+      servicesProps: result,
+    },
+  }
+}

@@ -1,27 +1,27 @@
 export default function () {
   return (
-    <section class="reviews-block bg-gradient5 pad-tb">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="common-heading ptag">
+    <section className="reviews-block bg-gradient5 pad-tb">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-lg-8">
+            <div className="common-heading ptag">
               <span>Service Testimonials</span>
               <h2>Client Speaks</h2>
-              <p class="mb30">Check our customers success stories.</p>
+              <p className="mb30">Check our customers success stories.</p>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4 mt30">
-            <div class="reviews-card pr-shadow">
-              <div class="row v-center">
-                <div class="col">
-                  <span class="revbx-lr">
-                    <i class="fas fa-quote-left"></i>
+        <div className="row">
+          <div className="col-md-4 mt30">
+            <div className="reviews-card pr-shadow">
+              <div className="row v-center">
+                <div className="col">
+                  <span className="revbx-lr">
+                    <i className="fas fa-quote-left"></i>
                   </span>
                 </div>
-                <div class="col">
-                  <span class="revbx-rl">
+                <div className="col">
+                  <span className="revbx-rl">
                     <img
                       src="/images/client/envato.png"
                       alt="review service logo"
@@ -29,7 +29,7 @@ export default function () {
                   </span>
                 </div>
               </div>
-              <div class="review-text">
+              <div className="review-text">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -38,38 +38,38 @@ export default function () {
                   specimen book.
                 </p>
               </div>
-              <div class="-client-details-">
-                <div class="reviewer-text">
+              <div className="-client-details-">
+                <div className="reviewer-text">
                   <h4>Sue Vaneer</h4>
                   <p>
                     Business Owner,
                     <small>Jaipur</small>
                   </p>
-                  <div class="star-rate">
+                  <div className="star-rate">
                     <ul>
                       <li>
-                        <a href="javascript:void(0)" class="chked">
-                          <i class="fas fa-star" aria-hidden="true"></i>
+                        <a href="#" className="chked">
+                          <i className="fas fa-star" aria-hidden="true"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="javascript:void(0)" class="chked">
-                          <i class="fas fa-star" aria-hidden="true"></i>
+                        <a href="#" className="chked">
+                          <i className="fas fa-star" aria-hidden="true"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="javascript:void(0)" class="chked">
-                          <i class="fas fa-star" aria-hidden="true"></i>
+                        <a href="#" className="chked">
+                          <i className="fas fa-star" aria-hidden="true"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="javascript:void(0)" class="chked">
-                          <i class="fas fa-star" aria-hidden="true"></i>
+                        <a href="#" className="chked">
+                          <i className="fas fa-star" aria-hidden="true"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="javascript:void(0)">
-                          <i class="fas fa-star" aria-hidden="true"></i>
+                        <a href="#">
+                          <i className="fas fa-star" aria-hidden="true"></i>
                         </a>
                       </li>
                     </ul>
@@ -78,16 +78,16 @@ export default function () {
               </div>
             </div>
           </div>
-          <div class="col-md-4 mt30">
-            <div class="reviews-card pr-shadow">
-              <div class="row v-center">
-                <div class="col">
-                  <span class="revbx-lr">
-                    <i class="fas fa-quote-left"></i>
+          <div className="col-md-4 mt30">
+            <div className="reviews-card pr-shadow">
+              <div className="row v-center">
+                <div className="col">
+                  <span className="revbx-lr">
+                    <i className="fas fa-quote-left"></i>
                   </span>
                 </div>
-                <div class="col">
-                  <span class="revbx-rl">
+                <div className="col">
+                  <span className="revbx-rl">
                     <img
                       src="/images/client/envato.png"
                       alt="review service logo"
@@ -95,7 +95,7 @@ export default function () {
                   </span>
                 </div>
               </div>
-              <div class="review-text">
+              <div className="review-text">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -104,38 +104,38 @@ export default function () {
                   specimen book.
                 </p>
               </div>
-              <div class="-client-details-">
-                <div class="reviewer-text">
+              <div className="-client-details-">
+                <div className="reviewer-text">
                   <h4>Don Stairs</h4>
                   <p>
                     Business Owner,
                     <small>Jaipur</small>
                   </p>
-                  <div class="star-rate">
+                  <div className="star-rate">
                     <ul>
                       <li>
-                        <a href="javascript:void(0)" class="chked">
-                          <i class="fas fa-star" aria-hidden="true"></i>
+                        <a href="#" className="chked">
+                          <i className="fas fa-star" aria-hidden="true"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="javascript:void(0)" class="chked">
-                          <i class="fas fa-star" aria-hidden="true"></i>
+                        <a href="#" className="chked">
+                          <i className="fas fa-star" aria-hidden="true"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="javascript:void(0)" class="chked">
-                          <i class="fas fa-star" aria-hidden="true"></i>
+                        <a href="#" className="chked">
+                          <i className="fas fa-star" aria-hidden="true"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="javascript:void(0)" class="chked">
-                          <i class="fas fa-star" aria-hidden="true"></i>
+                        <a href="#" className="chked">
+                          <i className="fas fa-star" aria-hidden="true"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="javascript:void(0)">
-                          <i class="fas fa-star" aria-hidden="true"></i>
+                        <a href="#">
+                          <i className="fas fa-star" aria-hidden="true"></i>
                         </a>
                       </li>
                     </ul>
@@ -144,16 +144,16 @@ export default function () {
               </div>
             </div>
           </div>
-          <div class="col-md-4 mt30">
-            <div class="reviews-card pr-shadow">
-              <div class="row v-center">
-                <div class="col">
-                  <span class="revbx-lr">
-                    <i class="fas fa-quote-left"></i>
+          <div className="col-md-4 mt30">
+            <div className="reviews-card pr-shadow">
+              <div className="row v-center">
+                <div className="col">
+                  <span className="revbx-lr">
+                    <i className="fas fa-quote-left"></i>
                   </span>
                 </div>
-                <div class="col">
-                  <span class="revbx-rl">
+                <div className="col">
+                  <span className="revbx-rl">
                     <img
                       src="/images/client/envato.png"
                       alt="review service logo"
@@ -161,7 +161,7 @@ export default function () {
                   </span>
                 </div>
               </div>
-              <div class="review-text">
+              <div className="review-text">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -170,38 +170,38 @@ export default function () {
                   specimen book.
                 </p>
               </div>
-              <div class="-client-details-">
-                <div class="reviewer-text">
+              <div className="-client-details-">
+                <div className="reviewer-text">
                   <h4>Russ L. Rogers</h4>
                   <p>
                     Business Owner,
                     <small>Jaipur</small>
                   </p>
-                  <div class="star-rate">
+                  <div className="star-rate">
                     <ul>
                       <li>
-                        <a href="javascript:void(0)" class="chked">
-                          <i class="fas fa-star" aria-hidden="true"></i>
+                        <a href="#" className="chked">
+                          <i className="fas fa-star" aria-hidden="true"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="javascript:void(0)" class="chked">
-                          <i class="fas fa-star" aria-hidden="true"></i>
+                        <a href="#" className="chked">
+                          <i className="fas fa-star" aria-hidden="true"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="javascript:void(0)" class="chked">
-                          <i class="fas fa-star" aria-hidden="true"></i>
+                        <a href="#" className="chked">
+                          <i className="fas fa-star" aria-hidden="true"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="javascript:void(0)" class="chked">
-                          <i class="fas fa-star" aria-hidden="true"></i>
+                        <a href="#" className="chked">
+                          <i className="fas fa-star" aria-hidden="true"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="javascript:void(0)">
-                          <i class="fas fa-star" aria-hidden="true"></i>
+                        <a href="#">
+                          <i className="fas fa-star" aria-hidden="true"></i>
                         </a>
                       </li>
                     </ul>

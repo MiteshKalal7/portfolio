@@ -1,19 +1,19 @@
 export default function () {
   return (
-    <section class="service pad-tb bg-gradient5">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="single-image bg-shape-dez mt0 wow fadeIn">
+    <section className="service pad-tb bg-gradient5">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-4">
+            <div className="single-image bg-shape-dez mt0 wow fadeIn">
               <img
                 src="/images/service/graphic-design.jpg"
                 alt="image"
-                class="img-fluid no-shadow"
+                className="img-fluid no-shadow"
               />
             </div>
           </div>
-          <div class="col-lg-8 block-1 m-mt50">
-            <div class="common-heading text-l pl25">
+          <div className="col-lg-8 block-1 m-mt50">
+            <div className="common-heading text-l pl25">
               <span>Overview</span>
               <h2>Custom Graphic Design Services We Offer</h2>
               <p>

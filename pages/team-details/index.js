@@ -1,9 +1,15 @@
 import Hero from '../../components/Hero'
 import { Leaders, Members } from './../../components/team'
+import Head from 'next/head'
+import renderHTML from 'react-render-html'
+import Header from './../../components/Header'
+import { getServicesMenu } from '../../services'
 
-export default function () {
+export default function (props) {
   return (
     <>
+      <Head>{renderHTML(props.metaTags)}</Head>
+      <Header services={props.servicesProps} />
       <Hero page="Team" title="Our Leaders" />
       <section className="team pad-tb deep-dark">
         <div className="container">
@@ -41,19 +47,19 @@ export default function () {
                     simply dummy text of the printing and typesetting industry.{' '}
                   </p>
                   <div className="social-media-profile">
-                    <a href="javascript:void(0)" target="blank">
+                    <a href="#" target="blank">
                       <i className="fab fa-facebook" />
                     </a>
-                    <a href="javascript:void(0)" target="blank">
+                    <a href="#" target="blank">
                       <i className="fab fa-twitter" />
                     </a>
-                    <a href="javascript:void(0)" target="blank">
+                    <a href="#" target="blank">
                       <i className="fab fa-instagram" />
                     </a>
-                    <a href="javascript:void(0)" target="blank">
+                    <a href="#" target="blank">
                       <i className="fab fa-linkedin" />
                     </a>
-                    <a href="javascript:void(0)" target="blank">
+                    <a href="#" target="blank">
                       <i className="fab fa-dribbble" />
                     </a>
                   </div>
@@ -65,4 +71,16 @@ export default function () {
       </section>
     </>
   )
+}
+
+export async function getStaticProps() {
+  const res = await getServicesMenu()
+  const result = await res.result
+
+  return {
+    props: {
+      metaTags: '<title>Team Details</title>',
+      servicesProps: result,
+    },
+  }
 }

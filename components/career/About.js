@@ -1,11 +1,11 @@
 export default function () {
   return (
-    <section class="about-agencys pad-tb block-1">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="common-heading text-l">
-              <h2 class="mb20">Career and Culture at Niwax</h2>
+    <section className="about-agencys pad-tb block-1">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-6">
+            <div className="common-heading text-l">
+              <h2 className="mb20">Career and Culture at Niwax</h2>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
@@ -17,19 +17,19 @@ export default function () {
                 industry. Lorem Ipsum is simply dummy text of the printing and
                 typesetting industry.
               </p>
-              <a href="#jobs" class="btn-main bg-btn2 lnk mt30">
+              <a href="#jobs" className="btn-main bg-btn2 lnk mt30">
                 {' '}
-                View Opening <i class="fas fa-chevron-right fa-icon"></i>
-                <span class="circle"></span>
+                View Opening <i className="fas fa-chevron-right fa-icon"></i>
+                <span className="circle"></span>
               </a>
             </div>
           </div>
-          <div class="col-lg-6 v-center">
-            <div class="image-block mb0 m-mt30">
+          <div className="col-lg-6 v-center">
+            <div className="image-block mb0 m-mt30">
               <img
                 src="images/about/office-4.jpg"
                 alt="about"
-                class="img-fluid"
+                className="img-fluid"
               />
             </div>
           </div>

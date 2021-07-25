@@ -1,19 +1,19 @@
 export default function () {
   return (
-    <section class="about-agency pad-tb block-1">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 v-center">
-            <div class="about-image">
+    <section className="about-agency pad-tb block-1">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-6 v-center">
+            <div className="about-image">
               <img
                 src="/images/about/company-about.png"
                 alt="about us"
-                class="img-fluid"
+                className="img-fluid"
               />
             </div>
           </div>
-          <div class="col-lg-6">
-            <div class="common-heading text-l ">
+          <div className="col-lg-6">
+            <div className="common-heading text-l ">
               <span>About Us</span>
               <h2>About Agency</h2>
               <p>
@@ -35,28 +35,28 @@ export default function () {
                 printing and typesetting industry.
               </p>
             </div>
-            <div class="row in-stats small about-statistics">
-              <div class="col-lg-4 col-sm-4">
-                <div class="statistics">
-                  <div class="statnumb counter-number">
-                    <span class="counter">450</span>
+            <div className="row in-stats small about-statistics">
+              <div className="col-lg-4 col-sm-4">
+                <div className="statistics">
+                  <div className="statnumb counter-number">
+                    <span className="counter">450</span>
                     <p>Happy Clients</p>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-sm-4">
-                <div class="statistics">
-                  <div class="statnumb">
-                    <span class="counter">95</span>
+              <div className="col-lg-4 col-sm-4">
+                <div className="statistics">
+                  <div className="statnumb">
+                    <span className="counter">95</span>
                     <span>k</span>
                     <p>Hours Worked</p>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-sm-4">
-                <div class="statistics mb0">
-                  <div class="statnumb counter-number">
-                    <span class="counter">850</span>
+              <div className="col-lg-4 col-sm-4">
+                <div className="statistics mb0">
+                  <div className="statnumb counter-number">
+                    <span className="counter">850</span>
                     <p>Projects Done</p>
                   </div>
                 </div>

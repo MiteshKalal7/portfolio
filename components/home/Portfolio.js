@@ -2,24 +2,24 @@
 
 function Portfolio() {
   return (
-    <section class="portfolio-section pad-tb">
-      <div class="container">
-        <div class="row justify-content-center ">
-          <div class="col-lg-8">
-            <div class="common-heading">
+    <section className="portfolio-section pad-tb">
+      <div className="container">
+        <div className="row justify-content-center ">
+          <div className="col-lg-8">
+            <div className="common-heading">
               <span>Our Work</span>
-              <h2 class="mb0">Our Latest Creative Work</h2>
+              <h2 className="mb0">Our Latest Creative Work</h2>
             </div>
           </div>
         </div>
-        <div class="row">
+        <div className="row">
           <div
-            class="col-lg-8 col-sm-8 mt60 wow fadeInUp"
+            className="col-lg-8 col-sm-8 mt60 wow fadeInUp"
             data-wow-delay="0.2s"
           >
-            <div class="isotope_item hover-scale">
+            <div className="isotope_item hover-scale">
               <div
-                class="item-image"
+                className="item-image"
                 data-tilt
                 data-tilt-max="2"
                 data-tilt-speed="1000"
@@ -28,11 +28,11 @@ function Portfolio() {
                   <img
                     src="images/portfolio/image-d.jpg"
                     alt="image"
-                    class="img-fluid"
+                    className="img-fluid"
                   />{' '}
                 </a>
               </div>
-              <div class="item-info">
+              <div className="item-info">
                 <h4>
                   <a href="#">Ecommerce Development</a>
                 </h4>
@@ -41,12 +41,12 @@ function Portfolio() {
             </div>
           </div>
           <div
-            class="col-lg-4 col-sm-4 mt60 wow fadeInUp"
+            className="col-lg-4 col-sm-4 mt60 wow fadeInUp"
             data-wow-delay="0.4s"
           >
-            <div class="isotope_item hover-scale">
+            <div className="isotope_item hover-scale">
               <div
-                class="item-image"
+                className="item-image"
                 data-tilt
                 data-tilt-max="2"
                 data-tilt-speed="1000"
@@ -55,11 +55,11 @@ function Portfolio() {
                   <img
                     src="images/portfolio/image-1.jpg"
                     alt="image"
-                    class="img-fluid"
+                    className="img-fluid"
                   />{' '}
                 </a>
               </div>
-              <div class="item-info">
+              <div className="item-info">
                 <h4>
                   <a href="#">Creative App</a>
                 </h4>
@@ -68,12 +68,12 @@ function Portfolio() {
             </div>
           </div>
           <div
-            class="col-lg-4 col-sm-4 mt60 wow fadeInUp"
+            className="col-lg-4 col-sm-4 mt60 wow fadeInUp"
             data-wow-delay="0.6s"
           >
-            <div class="isotope_item hover-scale">
+            <div className="isotope_item hover-scale">
               <div
-                class="item-image"
+                className="item-image"
                 data-tilt
                 data-tilt-max="2"
                 data-tilt-speed="1000"
@@ -82,11 +82,11 @@ function Portfolio() {
                   <img
                     src="images/portfolio/image-6.jpg"
                     alt="image"
-                    class="img-fluid"
+                    className="img-fluid"
                   />{' '}
                 </a>
               </div>
-              <div class="item-info">
+              <div className="item-info">
                 <h4>
                   <a href="#">Brochure Design</a>
                 </h4>
@@ -95,12 +95,12 @@ function Portfolio() {
             </div>
           </div>
           <div
-            class="col-lg-8 col-sm-8 mt60 wow fadeInUp"
+            className="col-lg-8 col-sm-8 mt60 wow fadeInUp"
             data-wow-delay="0.8s"
           >
-            <div class="isotope_item hover-scale">
+            <div className="isotope_item hover-scale">
               <div
-                class="item-image"
+                className="item-image"
                 data-tilt
                 data-tilt-max="2"
                 data-tilt-speed="1000"
@@ -109,11 +109,11 @@ function Portfolio() {
                   <img
                     src="images/portfolio/image-c.jpg"
                     alt="image"
-                    class="img-fluid"
+                    className="img-fluid"
                   />{' '}
                 </a>
               </div>
-              <div class="item-info">
+              <div className="item-info">
                 <h4>
                   <a href="#">Icon Pack</a>
                 </h4>

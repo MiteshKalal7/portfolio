@@ -11,19 +11,16 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <meta charSet="utf-8" />
-          {/* <title>
-            Niwax - Web Design &amp; Digital Marketing Agency HTML Template
-          </title> */}
-          <meta
+          {/* <meta
             name="description"
             content="Creative Agency, Marketing Agency Template"
-          />
-          <meta name="keywords" content="Creative Agency, Marketing Agency" />
-          <meta name="author" content="" />
+          /> */}
+          {/* <meta name="keywords" content="Creative Agency, Marketing Agency" /> */}
+          {/* <meta name="author" content="" /> */}
           {/* <meta name="viewport" content="width=device-width,initial-scale=1" /> */}
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta name="theme-color" content="#2e2a8f" />
-          <link href="images/favicon.png" rel="icon" />
+          <link href="/images/favicon.png" rel="icon" />
           <link href="/css/bootstrap.min.css" rel="stylesheet" />
           <link href="/css/plugin.min.css" rel="stylesheet" />
           <link href="/css/all.min.css" rel="stylesheet" />

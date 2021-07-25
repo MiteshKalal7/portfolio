@@ -1,11 +1,11 @@
 export default function () {
   return (
-    <section class="service pad-tb light-dark">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-7">
-            <div class="text-l service-desc- pr25">
-              <h3 class="mb20">
+    <section className="service pad-tb light-dark">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-7">
+            <div className="text-l service-desc- pr25">
+              <h3 className="mb20">
                 We use advanced graphic designing tools to create impressive
                 ideas for you
               </h3>
@@ -17,7 +17,7 @@ export default function () {
                 Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
-              <ul class="service-point-2 mt20">
+              <ul className="service-point-2 mt20">
                 <li># 800+ Mobile Delivered</li>
                 <li># 200+ Team Strength</li>
                 <li># User-Friendly Interface</li>
@@ -25,19 +25,19 @@ export default function () {
                 <li># 95% Repeat business</li>
                 <li># Quality Service UX</li>
               </ul>
-              <a href="#" class="btn-main bg-btn2 lnk mt30">
+              <a href="#" className="btn-main bg-btn2 lnk mt30">
                 Request A Quote
-                <i class="fas fa-chevron-right fa-icon"></i>
-                <span class="circle"></span>
+                <i className="fas fa-chevron-right fa-icon"></i>
+                <span className="circle"></span>
               </a>
             </div>
           </div>
-          <div class="col-lg-5">
-            <div class="single-image wow fadeIn">
+          <div className="col-lg-5">
+            <div className="single-image wow fadeIn">
               <img
                 src="/images/service/branding-.jpg"
                 alt="image"
-                class="img-fluid no-shadow"
+                className="img-fluid no-shadow"
               />
             </div>
           </div>

@@ -100,19 +100,19 @@ function Footer() {
                   <a href="#">Contact</a>
                 </li>
                 <li>
-                  <a href="javascript:void(0)">Customer's FAQ</a>
+                  <a href="#">Customer's FAQ</a>
                 </li>
                 <li>
-                  <a href="javascript:void(0)">Refund Policy</a>
+                  <a href="#">Refund Policy</a>
                 </li>
                 <li>
-                  <a href="javascript:void(0)">Privacy Policy</a>
+                  <a href="#">Privacy Policy</a>
                 </li>
                 <li>
-                  <a href="javascript:void(0)">Terms and Conditions</a>
+                  <a href="#">Terms and Conditions</a>
                 </li>
                 <li>
-                  <a href="javascript:void(0)">License &amp; Copyright</a>
+                  <a href="#">License &amp; Copyright</a>
                 </li>
               </ul>
             </div>

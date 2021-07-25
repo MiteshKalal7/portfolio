@@ -1,20 +1,20 @@
 export default function () {
   return (
-    <section class="cta-area pad-tb">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="common-heading">
+    <section className="cta-area pad-tb">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-lg-8">
+            <div className="common-heading">
               <span>Let's work together</span>
               <h2>We Love to Listen to Your Requirements</h2>
-              <a href="javascript:void(0)" class="btn-outline">
+              <a href="#" className="btn-outline">
                 Estimate Project
-                <i class="fas fa-chevron-right fa-icon"></i>
+                <i className="fas fa-chevron-right fa-icon"></i>
               </a>
-              <p class="cta-call">
+              <p className="cta-call">
                 Or call us now
                 <a href="tel:+1234567890">
-                  <i class="fas fa-phone-alt"></i>
+                  <i className="fas fa-phone-alt"></i>
                   (123) 456 7890
                 </a>
               </p>
@@ -22,16 +22,16 @@ export default function () {
           </div>
         </div>
       </div>
-      <div class="shape shape-a1">
+      <div className="shape shape-a1">
         <img src="/images/shape/shape-3.svg" alt="shape" />
       </div>
-      <div class="shape shape-a2">
+      <div className="shape shape-a2">
         <img src="/images/shape/shape-4.svg" alt="shape" />
       </div>
-      <div class="shape shape-a3">
+      <div className="shape shape-a3">
         <img src="/images/shape/shape-13.svg" alt="shape" />
       </div>
-      <div class="shape shape-a4">
+      <div className="shape shape-a4">
         <img src="/images/shape/shape-11.svg" alt="shape" />
       </div>
     </section>

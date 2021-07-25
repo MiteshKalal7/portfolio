@@ -1,32 +1,32 @@
 export default function () {
   return (
-    <section class="block-a1 pad-tb">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="common-heading ptag">
+    <section className="block-a1 pad-tb">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-lg-8">
+            <div className="common-heading ptag">
               <span>Pricing</span>
               <h2>Pricing Table</h2>
-              <p class="mb0">
+              <p className="mb0">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
             </div>
           </div>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-4 col-md-6">
-            <div class="pricing-table mt60">
-              <div class="inner-table">
+        <div className="row justify-content-center">
+          <div className="col-lg-4 col-md-6">
+            <div className="pricing-table mt60">
+              <div className="inner-table">
                 <img src="/images/icons/plan-1.svg" alt="Personal" />
-                <span class="title">Personal</span>
-                <p class="title-sub">Great For Small Business</p>
+                <span className="title">Personal</span>
+                <p className="title-sub">Great For Small Business</p>
                 <h2>
                   <sup>$</sup>
                   79.99
                 </h2>
-                <p class="duration">Monthly Package</p>
-                <div class="details">
+                <p className="duration">Monthly Package</p>
+                <div className="details">
                   <ul>
                     <li>Social Media Marketing</li>
                     <li>2.100 Keywords</li>
@@ -36,25 +36,25 @@ export default function () {
                   </ul>
                 </div>
               </div>
-              <a href="#" class="btn-main bg-btn lnk">
+              <a href="#" className="btn-main bg-btn lnk">
                 Get Started
-                <i class="fas fa-chevron-right fa-icon"></i>
-                <span class="circle"></span>
+                <i className="fas fa-chevron-right fa-icon"></i>
+                <span className="circle"></span>
               </a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="pricing-table best-plan mt60 bg-gradient4">
-              <div class="inner-table">
+          <div className="col-lg-4 col-md-6">
+            <div className="pricing-table best-plan mt60 bg-gradient4">
+              <div className="inner-table">
                 <img src="/images/icons/plan-2.svg" alt="Advance" />
-                <span class="title">Advance</span>
-                <p class="title-sub">Great For Small Business</p>
+                <span className="title">Advance</span>
+                <p className="title-sub">Great For Small Business</p>
                 <h2>
                   <sup>$</sup>
                   79.99
                 </h2>
-                <p class="duration">Monthly Package</p>
-                <div class="details">
+                <p className="duration">Monthly Package</p>
+                <div className="details">
                   <ul>
                     <li>Social Media Marketing</li>
                     <li>2.100 Keywords</li>
@@ -64,25 +64,25 @@ export default function () {
                   </ul>
                 </div>
               </div>
-              <a href="#" class="btn-main bg-btn3 lnk">
+              <a href="#" className="btn-main bg-btn3 lnk">
                 Get Started
-                <i class="fas fa-chevron-right fa-icon"></i>
-                <span class="circle"></span>
+                <i className="fas fa-chevron-right fa-icon"></i>
+                <span className="circle"></span>
               </a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="pricing-table mt60">
-              <div class="inner-table">
+          <div className="col-lg-4 col-md-6">
+            <div className="pricing-table mt60">
+              <div className="inner-table">
                 <img src="/images/icons/plan-3.svg" alt="Ultimate" />
-                <span class="title">Ultimate</span>
-                <p class="title-sub">Great For Small Business</p>
+                <span className="title">Ultimate</span>
+                <p className="title-sub">Great For Small Business</p>
                 <h2>
                   <sup>$</sup>
                   79.99
                 </h2>
-                <p class="duration">Monthly Package</p>
-                <div class="details">
+                <p className="duration">Monthly Package</p>
+                <div className="details">
                   <ul>
                     <li>Social Media Marketing</li>
                     <li>2.100 Keywords</li>
@@ -92,10 +92,10 @@ export default function () {
                   </ul>
                 </div>
               </div>
-              <a href="#" class="btn-main bg-btn lnk">
+              <a href="#" className="btn-main bg-btn lnk">
                 Get Started
-                <i class="fas fa-chevron-right fa-icon"></i>
-                <span class="circle"></span>
+                <i className="fas fa-chevron-right fa-icon"></i>
+                <span className="circle"></span>
               </a>
             </div>
           </div>

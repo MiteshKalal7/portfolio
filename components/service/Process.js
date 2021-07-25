@@ -1,10 +1,10 @@
 export default function () {
   return (
-    <section class="service-block pad-tb light-dark">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="common-heading ptag">
+    <section className="service-block pad-tb light-dark">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-lg-8">
+            <div className="common-heading ptag">
               <span>Process</span>
               <h2>Our App Development Process</h2>
               <p>
@@ -14,18 +14,18 @@ export default function () {
             </div>
           </div>
         </div>
-        <div class="row upset justify-content-center mt60">
-          <div class="col-lg-4 v-center order1">
-            <div class="image-block1">
+        <div className="row upset justify-content-center mt60">
+          <div className="col-lg-4 v-center order1">
+            <div className="image-block1">
               <img
                 src="/images/process/process-1.jpg"
                 alt="Process"
-                class="img-fluid"
+                className="img-fluid"
               />
             </div>
           </div>
-          <div class="col-lg-7 v-center order2">
-            <div class="ps-block">
+          <div className="col-lg-7 v-center order2">
+            <div className="ps-block">
               <span>1</span>
               <h3>Requirement Gathering</h3>
               <p>
@@ -38,9 +38,9 @@ export default function () {
             </div>
           </div>
         </div>
-        <div class="row upset justify-content-center mt60">
-          <div class="col-lg-7 v-center order2">
-            <div class="ps-block">
+        <div className="row upset justify-content-center mt60">
+          <div className="col-lg-7 v-center order2">
+            <div className="ps-block">
               <span>2</span>
               <h3>Prototype</h3>
               <p>
@@ -52,28 +52,28 @@ export default function () {
               </p>
             </div>
           </div>
-          <div class="col-lg-4 v-center order1">
-            <div class="image-block1">
+          <div className="col-lg-4 v-center order1">
+            <div className="image-block1">
               <img
                 src="/images/process/process-2.jpg"
                 alt="Process"
-                class="img-fluid"
+                className="img-fluid"
               />
             </div>
           </div>
         </div>
-        <div class="row upset justify-content-center mt60">
-          <div class="col-lg-4 v-center order1">
-            <div class="image-block1">
+        <div className="row upset justify-content-center mt60">
+          <div className="col-lg-4 v-center order1">
+            <div className="image-block1">
               <img
                 src="/images/process/process-3.jpg"
                 alt="Process"
-                class="img-fluid"
+                className="img-fluid"
               />
             </div>
           </div>
-          <div class="col-lg-7 v-center order2">
-            <div class="ps-block">
+          <div className="col-lg-7 v-center order2">
+            <div className="ps-block">
               <span>3</span>
               <h3>Deployment</h3>
               <p>
@@ -86,9 +86,9 @@ export default function () {
             </div>
           </div>
         </div>
-        <div class="row upset justify-content-center mt60">
-          <div class="col-lg-7 v-center order2">
-            <div class="ps-block">
+        <div className="row upset justify-content-center mt60">
+          <div className="col-lg-7 v-center order2">
+            <div className="ps-block">
               <span>4</span>
               <h3>Support & Maintenance</h3>
               <p>
@@ -100,12 +100,12 @@ export default function () {
               </p>
             </div>
           </div>
-          <div class="col-lg-4 v-center order1">
-            <div class="image-block1">
+          <div className="col-lg-4 v-center order1">
+            <div className="image-block1">
               <img
                 src="/images/process/process-4.jpg"
                 alt="Process"
-                class="img-fluid"
+                className="img-fluid"
               />
             </div>
           </div>

@@ -120,8 +120,7 @@ function Contact() {
                     defaultChecked="checked"
                   />
                   <label className="custom-control-label" htmlFor="customCheck">
-                    I agree to the{' '}
-                    <a href="javascript:void(0)">Terms &amp; Conditions</a> of
+                    I agree to the <a href="#">Terms &amp; Conditions</a> of
                     Business Name.
                   </label>
                 </div>

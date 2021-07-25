@@ -28,3 +28,20 @@ export const getServicesMenu = () => {
       return err
     })
 }
+
+export const getMetaData = (id, value = '') => {
+  let url = 'get-page-meta'
+  if (value === '1') {
+    url = 'get-category-meta'
+  }
+  if (value === '2') {
+    url = 'get-service-meta'
+  }
+  return fetch(`${API_URL}${url}/${id}`, getObject('get'))
+    .then((res) => {
+      return res.json()
+    })
+    .catch((err) => {
+      return err
+    })
+}

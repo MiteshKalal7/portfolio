@@ -21,7 +21,7 @@ function Service() {
                 Lorem Ipsum has been the industry's standard dummy text ever
                 since the 1500.
               </p>
-              <a href="javascript:void(0)" className="mt20 link-prb">
+              <a href="#" className="mt20 link-prb">
                 Learn More <i className="fas fa-chevron-right" />
               </a>
             </div>

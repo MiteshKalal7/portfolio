@@ -19,3 +19,5 @@ module.exports = withPlugins([withImages], {
     return config
   },
 })
+
+// "start": "NODE_ENV=production node server.js",

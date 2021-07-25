@@ -16,7 +16,7 @@ function Hero() {
         items: 1,
       },
       600: {
-        items: 2,
+        items: 3,
       },
       1000: {
         items: 3,
@@ -80,17 +80,17 @@ function Hero() {
               >
                 <OwlCarousel className="service-card-prb" {...options}>
                   <div
-                    class="service-slide card-bg-a"
+                    className="service-slide card-bg-a"
                     data-tilt
                     data-tilt-max="5"
                     data-tilt-speed="1000"
                   >
                     <a href="#">
-                      <div class="service-card-hh">
-                        <div class="image-sr-mm">
+                      <div className="service-card-hh">
+                        <div className="image-sr-mm">
                           <img alt="custom-sport" src="images/service/vr.png" />
                         </div>
-                        <div class="title-serv-c">
+                        <div className="title-serv-c">
                           <span>VR</span>
                           Solution
                         </div>
@@ -98,20 +98,20 @@ function Hero() {
                     </a>
                   </div>
                   <div
-                    class="service-slide card-bg-b"
+                    className="service-slide card-bg-b"
                     data-tilt
                     data-tilt-max="5"
                     data-tilt-speed="1000"
                   >
                     <a href="#">
-                      <div class="service-card-hh">
-                        <div class="image-sr-mm">
+                      <div className="service-card-hh">
+                        <div className="image-sr-mm">
                           <img
                             alt="custom-sport"
                             src="images/service/app-develop.png"
                           />
                         </div>
-                        <div class="title-serv-c">
+                        <div className="title-serv-c">
                           <span>Custom</span>
                           App Solution
                         </div>
@@ -119,20 +119,20 @@ function Hero() {
                     </a>
                   </div>
                   <div
-                    class="service-slide card-bg-c"
+                    className="service-slide card-bg-c"
                     data-tilt
                     data-tilt-max="5"
                     data-tilt-speed="1000"
                   >
                     <a href="#">
-                      <div class="service-card-hh">
-                        <div class="image-sr-mm">
+                      <div className="service-card-hh">
+                        <div className="image-sr-mm">
                           <img
                             alt="custom-sport"
                             src="images/service/startup.png"
                           />
                         </div>
-                        <div class="title-serv-c">
+                        <div className="title-serv-c">
                           <span>Startup</span>
                           Solution
                         </div>
@@ -140,20 +140,20 @@ function Hero() {
                     </a>
                   </div>
                   <div
-                    class="service-slide card-bg-d"
+                    className="service-slide card-bg-d"
                     data-tilt
                     data-tilt-max="5"
                     data-tilt-speed="1000"
                   >
                     <a href="#">
-                      <div class="service-card-hh">
-                        <div class="image-sr-mm">
+                      <div className="service-card-hh">
+                        <div className="image-sr-mm">
                           <img
                             alt="custom-sport"
                             src="images/service/car-rental.png"
                           />
                         </div>
-                        <div class="title-serv-c">
+                        <div className="title-serv-c">
                           <span>Car</span>
                           Rental Solution
                         </div>
@@ -161,20 +161,20 @@ function Hero() {
                     </a>
                   </div>
                   <div
-                    class="service-slide card-bg-e"
+                    className="service-slide card-bg-e"
                     data-tilt
                     data-tilt-max="5"
                     data-tilt-speed="1000"
                   >
                     <a href="#">
-                      <div class="service-card-hh">
-                        <div class="image-sr-mm">
+                      <div className="service-card-hh">
+                        <div className="image-sr-mm">
                           <img
                             alt="custom-sport"
                             src="images/service/marketing.png"
                           />
                         </div>
-                        <div class="title-serv-c">
+                        <div className="title-serv-c">
                           <span>Marketing</span>
                           Solution
                         </div>
@@ -182,20 +182,20 @@ function Hero() {
                     </a>
                   </div>
                   <div
-                    class="service-slide card-bg-f"
+                    className="service-slide card-bg-f"
                     data-tilt
                     data-tilt-max="5"
                     data-tilt-speed="1000"
                   >
                     <a href="#">
-                      <div class="service-card-hh">
-                        <div class="image-sr-mm">
+                      <div className="service-card-hh">
+                        <div className="image-sr-mm">
                           <img
                             alt="custom-sport"
                             src="images/service/ewallet.png"
                           />
                         </div>
-                        <div class="title-serv-c">
+                        <div className="title-serv-c">
                           <span>e-Wallet</span>
                           Solution
                         </div>

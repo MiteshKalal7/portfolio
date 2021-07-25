@@ -7,7 +7,7 @@ function CTA() {
             <div className="common-heading">
               <span>Let's work together</span>
               <h2>We Love to Listen to Your Requirements</h2>
-              <a href="javascript:void(0)" className="btn-outline">
+              <a href="#" className="btn-outline">
                 Estimate Project <i className="fas fa-chevron-right fa-icon" />
               </a>
               <p className="cta-call">
